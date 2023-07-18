@@ -1,0 +1,52 @@
+body{
+    background-color: rgb(30, 29, 29);
+    background-image: url(futuristic-blue-world-map-background-vector-24917268.webp);
+    background-size: cover;
+}
+menu{
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+ul{
+    list-style: none;
+    display: flex;
+    
+
+}
+li{
+    margin-right: 10rem;
+    margin-left: 5rem;
+    margin-bottom: 2rem;
+    box-shadow: 1px 1px 14px 10px black;
+    width: 20rem;
+    text-align: center;
+    justify-content: center;
+    display: flex;
+    cursor: pointer;
+    background-color: rgb(15, 16, 34);
+    border-radius: 5px;
+}
+a{
+    text-decoration: none;
+    text-align: center;display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 2rem;
+}
+
+#m:hover{
+    width: 20.5rem;
+    background-color:rgb(18, 19, 42) ;
+    height: auto;
+    transition: .5s ease;
+}
+#sg{
+    background-color: rgb(35, 33, 33);
+}
+#img{
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+
