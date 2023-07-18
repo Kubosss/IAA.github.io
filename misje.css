@@ -1,0 +1,35 @@
+body{
+    background-color: rgb(30, 29, 29);
+    background-image: url(futuristic-blue-world-map-background-vector-24917268.webp);
+    background-size: cover;
+    cursor: pointer;
+}
+section{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+div{
+    margin: 3rem;
+    display: flex;
+    justify-content: space-between;
+    width: 90%;
+    padding: 1rem;
+    border-radius: 1rem;
+}
+.zakonczona-misja{
+    background-color: rgb(145, 14, 14);
+}
+.aktywna-misja{
+    background-color: green;
+    margin-bottom: 0;
+    border-bottom-left-radius: 0;
+    border-bottom-right-radius: 0;
+}
+.opis-misji{
+    background-color: rgb(48, 47, 47);
+    margin-top: 0;
+    border-top-left-radius: 0;
+    border-top-right-radius: 0;
+}
