@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="login.css">
+    <link rel="stylesheet" href="style.css">
+    
+    <title>IAA
+
+    </title>
+</head>
+
+<body>
+    <section id="login-section">
+        <img src="IAA-GTAV-Seal.webp" alt=""><br>
+        <p>IAA LOGIN</p>
+
+        <div>
+            <form id="cid-login">
+                <label for="login">A<span>GENT</span> ID</label>&nbsp;&nbsp;&nbsp;<input type="password" id="login" required><br><br>
+                <label for="password">P<span>ASSWORD</span></label>&nbsp;<input type="password" id="password" required>
+                <input type="submit" id="submit">
+
+            </form>
+        </div>
+
+    </section>
+    <footer>
+        
+    </footer>
+    <script>
+       
+        const correctAgentID = "kortz";
+        const correctPassword = "połowa";
+
+       
+        function login(event) {
+            event.preventDefault(); 
+
+          
+            const agentID = document.getElementById("login").value;
+            const password = document.getElementById("password").value;
+
+          
+            if (agentID === correctAgentID && password === correctPassword) {
+                
+               
+                window.location.href = "main.html"; 
+            } else {
+                alert("Error!");
+            }
+        }
+
+       
+        document.getElementById("cid-login").addEventListener("submit", login);
+
+       
+        document.getElementById("password").addEventListener("keyup", function(event) {
+            if (event.keyCode === 13) { 
+                event.preventDefault(); 
+                login(event); 
+            }
+        });
+    </script>
+</body>
+</html>
