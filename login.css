@@ -1,0 +1,32 @@
+body{
+    background-image: url(futuristic-blue-world-map-background-vector-24917268.webp);
+    background-size: cover;
+   
+}
+#cid-login label span{
+    font-size: 0.8rem;
+}
+#cid-login input{
+border:none;
+background-color: white;
+color: black;
+
+}
+#login-section{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+p{
+ font-size: 2rem;
+}
+img{
+    height: 15rem;
+    width: auto;
+}
+#submit{
+    opacity: 0;
+    width: 1px;
+    height: auto;
+}
